@@ -1,0 +1,7 @@
+﻿1. Cấu hình Connectionstring trong file App.config
+2. Tạo thêm các Model cần cho ứng dụng tại name space Infrastructure.zModels
+3. public DbSet<Class Entity> Class Entities { set; get; } trong file DomainDbContext.cs
+4. Mở Tools/NuGet Package Manager/Package Manager Console
+5. Dùng lệnh enable-migrations để kiểm tra Database có tồn tại hay không.
+6. Dùng lệnh add-migration InitDatabase để tạo điểm phục hồi ban đầu.
+7. Dùng lệnh update-database để tạo Database và các Table
